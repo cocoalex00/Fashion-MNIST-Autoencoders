@@ -1,1 +1,5 @@
-data/ 
+# exclude everything from the data folder 
+data/*
+
+# include the folder itself 
+!data/.gitkeep
